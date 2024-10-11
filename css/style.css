@@ -1,0 +1,63 @@
+:root {
+    --font1: "Kanit", sans-serif;
+    --font2: "Archivo", sans-serif;
+    --font3:  "Anton", sans-serif;
+    --font4:  "Rubik Mono One", monospace;
+    --bg1: #3B28CC;
+    --bg2: #302B27;
+    --bg3: #FEFAE0;
+    --bg4: #E0E1E9;
+    --tert: darkgray;
+}
+
+*{box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+.heading {
+    font-family: var(--font1);
+}
+
+.h2heading {
+    font-family: var(--font2);
+}
+
+.Pjheading {
+    font-family: var(--font3);
+}
+
+
+
+.contactlogo {
+    font-family: var(--font4);
+}
+
+.footer {
+    padding-top: 40px;
+    background-color:#302B27
+}
+
+
+.header-link:hover {
+    color: red;
+}
+
+
+#headerSection1 {
+    background-color: #302B27;
+}
+
+
+
+
+
+@media (max-width: 767px) {
+    #headerSection2 {
+        height: 100vh;
+    }
+}
+
