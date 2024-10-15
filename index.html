@@ -15,31 +15,35 @@
     <header class="header" id="header">
         <section class="section" id="headerSection1">
             <div class="container">
-                <ul class="nav justify-content-center">
+                <ul class="nav justify-content-md-center justify-content-between">
                     <li class="nav-item">
-                        <a href="#homeSection" class="nav-link header-link text-uppercase text-light">home</a>
+                        <a href="#homeSection" class="nav-link header-link text-uppercase ">home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#bioSection" class="nav-link header-link text-uppercase  text-light">About</a>
+                        <a href="#bioSection" class="nav-link header-link text-uppercase  ">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#projectSection" class="nav-link header-link text-uppercase text-light">MyProjects</a>
+                        <a href="#projectSection" class="nav-link header-link text-uppercase">My Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contactfooter" class="nav-link header-link text uppercase text-light">Contact Me</a>
+                        <a href="#contactfooter" class="nav-link header-link text-uppercase ">Contact Me</a>
                     </li>
                 </ul>
             </div>
         </section>
         <section class="section" id="headerSection2">
             <div class="container mb-5">
+                <h1 class="heading text-light" class="text-decoration-none text-uppercase">Christopher Jackson</a></h1>
+                <p class="text text-uppercase text-light">Junior developer at Mississippi Coding Academies</p>
                 <div class="row">
-                    <div class="col">
-                        <h1 class="heading text-primary" class="text-decoration-none text-uppercase">Christopher Jackson</a></h1>
-                        <p class="text text-uppercase">Junior developer at the Mississppi Coding Academies</p>
-                        <div class="col">
+                    <div class="col-md-6">
+                        <figure class="figure">
                             <img src="https://via.placeholder.com/50x50"alt="placeholder img" class="img-fluid image w-50"/>
-                        </div>
+                            <figcaption class="figure-caption">Christopher Jackson</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="https://via.placeholder.com/50x50"alt="placeholder img" class="img-fluid image" />
                     </div>
                 </div>
             </div>
@@ -49,10 +53,10 @@
                 <div class="container">
                     <div class="row">
                         <div class="col">
-                            <h2 class="h2heading text-uppercase fw-bold">about me</h2>
-                            <p class="biotext">I'm a coder at the Mississppi Coding Academies. My goals for the academies is hope gain more experience in coding and learning new coding languages. I graduted high school in the year 2020. I love playing videos games and watch tv during my freetime.</p>
-                            <h3 class="h3heading">coding languages or frameworks i learn</h3>
-                            <ul>
+                            <h2 class="h2heading text-uppercase fw-bold text-light">about me</h2>
+                            <p class="biotext text-light">I'm a coder at Mississippi Coding Academies. I enjoy working with computers and I am looking to expand my career options in this field.  From the academy, I have gained more experience in coding and also learned new coding languages. I am a 2020 high school graduate. While attending high school, I completed a 2-year course in Simulation and Animation Design. I enjoy playing videos games and watching TV during my free time.</p>
+                            <h3 class="h3heading text-light">Coding languages or frameworks that I have learned</h3>
+                            <ul class="text-light">
                                 <li>HTML</li>
                                 <li>CSS</li>
                                 <li>Bootstrap</li>
@@ -63,7 +67,7 @@
             </section>
             <section class="section" id="projectSection">
                 <div class="container">
-                    <h2 class="Pjheading text-center text-uppercase text-danger">My Projects</h2>
+                    <h2 class="Pjheading text-center text-uppercase text-light">My Projects</h2>
                     <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-lg-4">
                         <div class="col">
                             <div class="card">
@@ -104,8 +108,8 @@
                                 <div class="card-body">
                                     <h3 class="card-title text-uppercase">scamzon</h3>
                                     <p class="card-text">this my scamzon page project with CSS and Bootstrap</p>
-                                    <a href="https://christophercoding-a11y.github.io/Scamzon/"target="_blank" class="btn btn btn-warning">live</a>
-                                    <a href="https://github.com/christophercoding-a11y/Scamzon"target="_blank" class="btn btn-primary">code</a>
+                                    <a href="https://christophercoding-a11y.github.io/Scamzon/"target="_blank" class="btn btn btn-primary">live</a>
+                                    <a href="https://github.com/christophercoding-a11y/Scamzon"target="_blank" class="btn btn-warning">code</a>
                                 </div>
                             </div>
                         </div>
@@ -116,10 +120,10 @@
     </header>
     <footer class="footer" id="contactfooter">
         <div class="container">
-            <h2 class="contactlogo text-uppercase text-light">contact me</h2>
+            <h2 class="contactlogo text-uppercase text-dark">contact me</h2>
             <ul class="Mycontacts-list list-unstyled">
-                <li><a href="tel:6014549412">Call Me</a></li>
-                <li><a href="mailto:christopherjack14@gmail.com">Email: christopherjack14@gmail.com</a></li>
+                <li><a href="tel:6014549412" class="PhoneNumber text-dark">Call Me</a></li>
+                <li><a href="mailto:christopherjack14@gmail.com" class="Email text-dark">Email: christopherjack14@gmail.com</a></li>
             </ul>
             <a href="https://github.com/christophercoding-a11y"target="_blank">
                 <i class="bi bi-github"></i>
@@ -129,7 +133,14 @@
                 <i class="bi bi-linkedin"></i>
                 <span class="visually-hidden">linkedin</span>
             </a>
-            <a href="www.christopherwork.com" target="_blank" class="site-link">christopherwork</a>&copy; 2024
+            <a href="https://x.com/Mrgamerdog" target="_blank">
+                <i class="bi bi-twitter"></i>
+                <span class="visually-hidden"></span>
+            </a>
+                <p class="colophon text-center text-md-start">site by
+                <a href="#" target="blank" class="footer-text text-dark">Christopher Jackson</a>
+                <p class="text-center text-md-start"><a href="#headerSection1" class="text-dark">back to Top</a></p>
+                </p>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

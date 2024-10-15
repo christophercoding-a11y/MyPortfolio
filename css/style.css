@@ -3,11 +3,8 @@
     --font2: "Archivo", sans-serif;
     --font3:  "Anton", sans-serif;
     --font4:  "Rubik Mono One", monospace;
-    --bg1: #3B28CC;
-    --bg2: #302B27;
-    --bg3: #FEFAE0;
-    --bg4: #E0E1E9;
-    --tert: darkgray;
+    --tert: #2e5984;
+    --bgcolor: #FFD700;
 }
 
 *{box-sizing: border-box;}
@@ -15,19 +12,31 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: lightgray;
+    background-color: var(--tert)
 }
 
 .heading {
     font-family: var(--font1);
+    margin: 5px;
+}
+
+.nav-item {
+    color: black;
+    font-size: calc(14px + (14 - 10) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .h2heading {
     font-family: var(--font2);
+    font-style: italic;
 }
 
 .Pjheading {
     font-family: var(--font3);
+    font-style:italic
+}
+
+.biotext {
+    font-size: 1rem;
 }
 
 
@@ -37,19 +46,36 @@ body {
 }
 
 .footer {
-    padding-top: 40px;
-    background-color:#302B27
+    padding-top: 20px;
+    padding-bottom: 8px;
+    background-color: var(--bgcolor)
 }
 
 
 .header-link:hover {
-    color: red;
+    color: white;
+}
+
+.header-link {
+    color: black;
+}
+
+
+.bi {
+    color:black;
+    font-size: 2rem;
 }
 
 
 #headerSection1 {
-    background-color: #302B27;
+    background-color: #FFD700
 }
+
+#projectSection {
+    padding-bottom: 25px;
+}
+
+
 
 
 
@@ -60,4 +86,6 @@ body {
         height: 100vh;
     }
 }
+
+
 
