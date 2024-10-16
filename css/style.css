@@ -9,11 +9,15 @@
 
 *{box-sizing: border-box;}
 
+/* tags */
+
 body {
     margin: 0;
     padding: 0;
     background-color: var(--tert)
 }
+
+/* classes */
 
 .heading {
     font-family: var(--font1);
@@ -64,12 +68,49 @@ body {
     color: black;
 }
 
+.PhoneNumber {
+    color: black;
+}
+
+.PhoneNumber:hover {
+    color: white;
+}
+
+.Email {
+    color: black;
+}
+
+.Email:hover {
+    color: white;
+}
+
 
 .bi {
     color:black;
     font-size: 2rem;
 }
 
+.bi:hover{
+    color: white;
+}
+
+.footer-text{
+    color: black;
+}
+
+.footer-text:hover {
+    color: white;
+}
+
+.BT {
+    color: black;
+}
+
+.BT:hover {
+    color: white;
+}
+
+/* ids */
 
 #headerSection1 {
     background-color: #FFD700
