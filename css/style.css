@@ -20,9 +20,9 @@ body {
     margin: 5px;
 }
 
-.nav-item {
+.top-nav {
     color: black;
-    font-size: calc(14px + (14 - 10) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(12px + (14 - 10) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .h2heading {
@@ -35,8 +35,12 @@ body {
     font-style:italic
 }
 
+.mini-text {
+    font-size: 1.3rem;
+}
+
 .biotext {
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 
