@@ -61,7 +61,7 @@ body {
 
 
 .header-link:hover {
-    color: white;
+    color: blue;
 }
 
 .header-link {
@@ -73,7 +73,7 @@ body {
 }
 
 .PhoneNumber:hover {
-    color: white;
+    color: blue;
 }
 
 .Email {
@@ -81,7 +81,7 @@ body {
 }
 
 .Email:hover {
-    color: white;
+    color: blue;
 }
 
 
@@ -91,7 +91,7 @@ body {
 }
 
 .bi:hover{
-    color: white;
+    color: blue;
 }
 
 .footer-text{
@@ -99,7 +99,7 @@ body {
 }
 
 .footer-text:hover {
-    color: white;
+    color: blue;
 }
 
 .BT {
@@ -107,7 +107,7 @@ body {
 }
 
 .BT:hover {
-    color: white;
+    color: blue;
 }
 
 /* ids */
