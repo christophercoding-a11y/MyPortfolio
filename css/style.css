@@ -3,8 +3,8 @@
     --font2: "Archivo", sans-serif;
     --font3:  "Anton", sans-serif;
     --font4:  "Rubik Mono One", monospace;
-    --tert: #2e5984;
-    --bgcolor: #FFD700;
+    --bgcolor1: #2e5984;
+    --bgcolor2: #FFD700;
 }
 
 *{box-sizing: border-box;}
@@ -14,7 +14,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: var(--tert)
+    background-color: var(--bgcolor1)
 }
 
 /* classes */
@@ -22,6 +22,14 @@ body {
 .heading {
     font-family: var(--font1);
     margin: 5px;
+}
+
+.header-link {
+    color: black;
+}
+
+.header-link:hover {
+    color: blue;
 }
 
 .top-nav {
@@ -39,11 +47,11 @@ body {
     font-style:italic
 }
 
-.mini-text {
+.biotext {
     font-size: 1.3rem;
 }
 
-.biotext {
+.mini-text {
     font-size: 1.3rem;
 }
 
@@ -53,20 +61,14 @@ body {
     font-family: var(--font4);
 }
 
+
 .footer {
     padding-top: 20px ;
     padding-bottom: 8px;
-    background-color: var(--bgcolor)
+    background-color: var(--bgcolor2)
 }
 
 
-.header-link:hover {
-    color: blue;
-}
-
-.header-link {
-    color: black;
-}
 
 .PhoneNumber {
     color: black;
@@ -108,6 +110,10 @@ body {
 
 .BT:hover {
     color: blue;
+}
+
+.colophon {
+    color: black;
 }
 
 /* ids */
