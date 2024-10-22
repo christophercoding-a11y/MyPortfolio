@@ -34,7 +34,7 @@ body {
 
 .top-nav {
     color: black;
-    font-size: calc(12px + (14 - 10) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(12px + (14 - 10) * ((100vw - 300px) / (1700 - 300)));
 }
 
 .h2heading {
