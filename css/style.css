@@ -37,21 +37,22 @@ body {
     font-size: calc(12px + (14 - 10) * ((100vw - 300px) / (1700 - 300)));
 }
 
+
 .headshot {
     width: 375px;
 }
 
 .headshot2 {
-    width: 375px;
+    width: 700px;
 }
 
 .figure-caption {
     font-size: large;
 }
 
-.h2heading {
+.aboutheading {
     font-family: var(--font2);
-    font-style: italic;
+    padding-top: 12px;
 }
 
 .Pjheading {
@@ -139,7 +140,7 @@ body {
 }
 
 #projectSection {
-    padding-bottom: 25px;
+    padding-bottom: 40px;
 }
 
 
