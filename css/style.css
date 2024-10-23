@@ -39,11 +39,11 @@ body {
 
 
 .headshot {
-    width: 375px;
+    width: 290px;
 }
 
 .headshot2 {
-    width: 700px;
+    width: 85%;
 }
 
 .figure-caption {
@@ -52,7 +52,7 @@ body {
 
 .aboutheading {
     font-family: var(--font2);
-    padding-top: 12px;
+    padding-top: 15px;
 }
 
 .Pjheading {
