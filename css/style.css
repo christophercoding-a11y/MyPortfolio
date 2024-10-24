@@ -19,7 +19,7 @@ body {
 
 /* classes */
 
-.heading {
+.name {
     font-family: var(--font1);
     margin: 5px;
 }
@@ -156,6 +156,10 @@ body {
         height: 100vh;
     }
 }
+
+
+
+
 
 
 
