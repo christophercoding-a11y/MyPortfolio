@@ -68,6 +68,11 @@ body {
     font-size: 1.3rem;
 }
 
+.project-text {
+    /* font-size: calc(16px + (14 - 10) * ((100vw - 300px) / (1600 - 300))); */
+}
+
+
 
 
 .contactlogo {
@@ -151,7 +156,8 @@ body {
 
 
 
-@media (max-width: 767px) {
+
+@media (min-width: 767px) {
     #headerSection2 {
         height: 100vh;
     }
