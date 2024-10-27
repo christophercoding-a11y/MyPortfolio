@@ -69,7 +69,7 @@ body {
 }
 
 .project-text {
-    /* font-size: calc(16px + (14 - 10) * ((100vw - 300px) / (1600 - 300))); */
+     font-size: calc(16px + (14 - 10) * ((100vw - 300px) / (1600 - 300)));
 }
 
 
