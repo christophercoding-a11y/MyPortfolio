@@ -3,8 +3,8 @@
     --font2: "Archivo", sans-serif;
     --font3:  "Anton", sans-serif;
     --font4:  "Rubik Mono One", monospace;
-    --bgcolor1: #2e5984;
-    --bgcolor2: #FFD700;
+    --prim: #2e5984;
+    --sec: #FFD700;
 }
 
 *{box-sizing: border-box;}
@@ -14,7 +14,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: var(--bgcolor1)
+    background-color: var(--prim)
 }
 
 /* classes */
@@ -141,7 +141,7 @@ body {
 /* ids */
 
 #headerSection1 {
-    background-color: #FFD700
+    background-color: var(--sec)
 }
 
 #projectSection {
